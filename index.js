@@ -1,4 +1,13 @@
-var course =prompt("which course prefer attendded (Deutsch or English?");
+var course =prompt("which course prefer attendded (Deutsch or English)?");
+while(course !== 'Deutsch' && course !== "English"){
+    course= prompt('please enter Deutsch or English');
+}
+
+var imageNum = prompt('how many level do you want to join?')
+
+
+
+
 var NoLevel =prompt("how many level do you want to join?");
 var status
 if (NoLevel >1 && NoLevel <=3) {
@@ -12,6 +21,8 @@ if (NoLevel >1 && NoLevel <=3) {
 } 
 document.write(status)
 document.getElementById(status)
+
+
 
 
 
